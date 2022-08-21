@@ -1,9 +1,10 @@
 *,*::after,*::before{
 	box-sizing: border-box;
+
 }
 
 body{
-	width: 100vw;
+	max-width: 2541px;
     font-family: 'Inter', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
