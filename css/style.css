@@ -161,7 +161,7 @@ header ::after{
 	text-align: center;
 	max-width: 360px;
 	right: 145px;
-	bottom: 20px;
+	bottom: -15px;
 	z-index: 4;
 	
 
@@ -711,6 +711,9 @@ width: 250px;
 	}
 	.header__decor-text--two{
 		display: none;
+	}
+	.header__decor-text--one,.header__decor-text--three{
+		right: 0
 	}
 }
 @media(max-width: 630px){
