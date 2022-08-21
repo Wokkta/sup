@@ -56,7 +56,7 @@ header ::before{
 	content:  "";
 	position: absolute;
 	background-image: url("../images/header-decor.svg");
-	bottom: 0;
+	bottom: -60px;
 	left: 0;
 	right: 0;
 	height: 456px;
@@ -138,6 +138,7 @@ header ::after{
 	z-index: -1;
 	
 }
+
 .header__decor-text--one{
 	z-index: 1;
 	opacity: 0.3;
@@ -698,7 +699,7 @@ width: 250px;
 		gap:  30px 90px;
 	}
 	.header__btn{
-		width: 70%
+		width: 70%;
 	}
 
 	.header__content{
@@ -706,10 +707,10 @@ width: 250px;
 		justify-content: center;
 	}
 	.header__content-box{
-		margin-right: 0
+		margin-right: 0;
 	}
 	.header__decor-text--two{
-		display: none
+		display: none;
 	}
 }
 @media(max-width: 630px){
@@ -723,7 +724,7 @@ width: 250px;
 	}
 	
 	.info__specs-text{
-		padding-left: 30px
+		padding-left: 30px;
 	}
 	.title{
 		font-size: 48px;
@@ -732,6 +733,7 @@ width: 250px;
 	.gallery-min{
 		padding: 20px 10px 20px; 
 	}
+
 	.tech__title{
 		font-size: 32px;
 		line-height: 36px;
@@ -774,4 +776,9 @@ width: 250px;
 	}
 
 
+}
+@media (max-width: 375px){
+	svg{
+		width: 100%;
+	}
 }
